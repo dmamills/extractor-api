@@ -1,0 +1,14 @@
+{
+  "name": "extractor-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "dmamills",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "request": "^2.79.0",
+    "simple-html-template": "^1.0.1",
+    "unfluff": "^1.1.0"
+  }
+}

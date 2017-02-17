@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                background-color: #34343D;
+                color: #E5F3F4;
+                font-family: Avenir;
+                -webkit-touch-callout: none;    
+                -webkit-user-select: none;
+                 user-select: none;
+            }
+            h1 { 
+                font-size: 1.5em;
+                text-align: center; 
+                margin-top: 30px;
+            } 
+            p {
+                text-indent: 25px;
+            }
+            hr { 
+                color: #E5F3F4;
+                margin-left: 1em; 
+                margin-right: 1em; 
+            }
+
+            div {
+              width:100%;
+              margin:0;
+            }
+            img {
+             width:auto;
+                max-width:100%;
+
+            }
+        </style>
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <h1>{{title}}</h1>
+        <hr/>
+
+        {{#if showImage }}
+            <div>
+                <img src="{{image}}"/>
+            </div>
+            <hr/>
+        {{/if}}
+        <article>{{text}}</article>
+    </body>
+</html>
